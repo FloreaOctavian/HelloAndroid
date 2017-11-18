@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#E8EAF6"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:src="@drawable/office"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+
+      />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <ImageView
+            android:id="@+id/logo_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/udacitylogo2" />
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Udacity   "
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:background="#2492d0"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/logo_image_view"
+            />
+
+        <TextView
+            android:id="@+id/address_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2465 Latham St   "
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:background="#FFFFFF"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:layout_below="@id/name_text_view"
+            />
+        <TextView
+            android:id="@+id/address2_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mountain View, CA 94043   "
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:background="#2492d0"
+            android:paddingLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/address_text_view"
+            />
+        <TextView
+            android:id="@+id/phone_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="650-555-5555   "
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:background="#FFFFFF"
+            android:paddingLeft="15dp"
+            android:textColor="#000000"
+            android:layout_below="@id/address2_text_view"
+            />
+        <TextView
+            android:id="@+id/site_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="udacity.com   "
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:background="#2492d0"
+            android:paddingLeft="15dp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/phone_text_view" ></TextView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
